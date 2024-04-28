@@ -13,6 +13,8 @@ from telegram import Update
 from telegram.ext import ContextTypes
 from telegram.constants import ParseMode
 
+print("This bot will run, for any sugesstion please messaage me in my telegram",
+      "https://t.me/RanaUniverse")
 
 async def echo_fun(update: Update, context: ContextTypes.DEFAULT_TYPE):
     '''This will send the same msg send to the bot'''
